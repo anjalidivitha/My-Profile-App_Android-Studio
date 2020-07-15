@@ -1,4 +1,4 @@
-# Profile-Displaying-App-using-Android-Studio
+# My-Profile-App-using-Android-Studio
 
 ‘My Profile’ app screens consists of ‘My Profile Photo’ screen,‘Education’ and 'Work Experience' screens.
 
