@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="24dp"
+              android:orientation="vertical">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masters in Electrical Engineering"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:id="@+id/eeText"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Massachusetts Institute of Technology"
+                android:textSize="12sp"
+                android:textColor="#555555"
+                android:textStyle="normal"
+                android:layout_marginTop="-11dp"
+                android:id="@+id/massa1Text"
+                android:layout_below="@+id/eeText"
+                android:layout_marginBottom="7dp"/>
+
+
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="7dp" android:layout_alignParentTop="true"/>
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masters in Physics"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:id="@+id/phyText"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Massachusetts Institute of Technology"
+                android:textSize="12sp"
+                android:textColor="#555555"
+                android:textStyle="normal"
+                android:layout_marginTop="-3dp"
+                android:id="@+id/massa2Text"
+                android:layout_below="@+id/phyText"
+                android:layout_marginBottom="7dp"/>
+
+
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="7dp"/>
+
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelors in Electrical Engineering"
+                android:textSize="16sp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:id="@+id/bacText"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Massachusetts Institute of Technology"
+                android:textSize="12sp"
+                android:textColor="#555555"
+                android:textStyle="normal"
+                android:layout_marginTop="-4dp"
+                android:id="@+id/massa3Text"
+                android:layout_below="@+id/bacText"
+                android:layout_marginBottom="7dp"/>
+
+
+
+    </RelativeLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="7dp"/>
+
+</LinearLayout>
+
